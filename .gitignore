@@ -1,0 +1,6 @@
+gldc_pvrtex/pvr-texture.o
+gldc_pvrtex/romdisk.img
+gldc_pvrtex/romdisk.o
+gldc_pvrtex/romdisk/test.pvr
+gldc_pvrtex/gltest.o
+gldc_pvrtex/gltest.elf
