@@ -12,7 +12,7 @@ all: rm-elf convert-texture $(TARGET)
 
 convert-texture:
 	mkdir -p $(KOS_ROMDISK_DIR)
-	pvrtex -i assets/test.png -o $(KOS_ROMDISK_DIR)/test.pvr -f RGB565 -s
+	$(KOS_BASE)/utils/pvrtex/pvrtex -i assets/test.png -o $(KOS_ROMDISK_DIR)/test.pvr -f RGB565 -s
 
 include $(KOS_BASE)/Makefile.rules
 
