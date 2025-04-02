@@ -9,3 +9,4 @@ pvr_pvrtex/quad.o
 pvr_pvrtex/romdisk.img
 pvr_pvrtex/romdisk.o
 pvr_pvrtex/romdisk/dc.dt
+.vscode/settings.json
